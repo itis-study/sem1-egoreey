@@ -1,0 +1,63 @@
+*{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.sign_up, .create_team, .sign_in, .my_team{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.sign_up_button, .sign_in_button, .create_team_button{
+    padding-top: 10px;
+    text-align: center;
+}
+.sign_up_info, .create_team_info, .sign_in_info, .my_team_info{
+    padding: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.input_remember_me{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input_name, .input_surname, .input_email, .password_label, .repeat_password_label,
+.team_name, .email_1, .email_2, .email_3, .email_4, .email_5{
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+}
+.sign_up_input, .sign_in_input{
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.checkbox_input{
+    accent-color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px
+}
+.logo_main{
+    height:20%;
+    width:20%;
+}
